@@ -9,6 +9,8 @@ import js from '../../img/js.png'
 import py from '../../img/py.png'
 import dit from '../../img/dit.png'
 import geu from '../../img/geu.png'
+import amz from '../../img/amz.png'
+import cont from '../../img/cont.png'
 import { ThemeContext } from '../../context'
 import { useContext } from 'react'
 
@@ -70,10 +72,20 @@ const About = () => {
 
                     </div>
                 </div>
-                <div className="a-workex">
+                <div className="a-work-wrapper">
+
                     <h2>Work Experience :</h2>
-                    <div className="a-az"><h3>Amazon - ML Data Associate</h3></div>
-                    <div className="a-ht"><h3>Hind Terminal - Management Trainee  </h3> </div>
+                    <div className="a-workex">
+                        <div className="a-comp">
+                            <img src={amz} alt="" />
+                            <p>Amazon - ML Data Associate</p>
+                        </div>
+                        <div className="a-comp">
+                            <img src={cont} alt="" />
+                            <p>Hind Terminals - Management Trainee</p>
+                        </div>
+                    </div>
+
                 </div>
                 <div className="a-award">
                     <img src={award} alt="" className="a-award-img" />

@@ -1,6 +1,7 @@
 .c {
     height: 100vh;
     position: relative;
+    
 
     .c-bg {
         height: 100%;
@@ -81,7 +82,11 @@
 }
 
 @media screen and (max-width:480px){
-    .c-wrapper{
-        flex-direction: column;
+    .c{
+        height: 130vh;
+
+        .c-wrapper{
+            flex-direction: column;
+        }
     }
 }
