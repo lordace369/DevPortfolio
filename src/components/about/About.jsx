@@ -1,6 +1,14 @@
 import  './about.scss'
 import meee from '../../img/meee.png'
+import reactp from '../../img/reactp.png'
 import award from '../../img/award.png'
+import flask from '../../img/flask.png'
+import html from '../../img/html.png'
+import css from '../../img/css.png'
+import js from '../../img/js.png'
+import py from '../../img/py.png'
+import dit from '../../img/dit.png'
+import geu from '../../img/geu.png'
 import { ThemeContext } from '../../context'
 import { useContext } from 'react'
 
@@ -17,8 +25,56 @@ const About = () => {
             </div>
             <div className="a-right">
                 <h1 className='a-title' >About me</h1>
-                <p className='a-sub'>Learning as i go .</p>
-                <p className='a-desc'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos odio sunt accusamus expedita rerum amet reprehenderit? Animi laboriosam corrupti veniam nisi eaque! Sit, quo.</p>
+                <p className='a-desc'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos odio sunt accusamus expedita rerum amet reprehenderit? Animi laboriosam corrupti veniam nisi eaque! Sit, quo.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus asperiores at cupiditate molestias repellat unde aperiam! Veritatis sunt minima tenetur doloribus magni fugit? Provident assumenda quod totam dignissimos quas dolorum.</p>
+                <h2 className='a-sub'>Toolbox :</h2>
+                <div className="a-skill" >  
+                    <figure className='a-fig'>
+                        <img src={py} alt="" />
+                        <figcaption>Python</figcaption>
+                    </figure>
+                    <figure className='a-fig'>
+                        <img src={flask} alt="" />
+                        <figcaption>Flask</figcaption>
+                    </figure>
+                    <figure className='a-fig'>
+                        <img src={html} alt="" />
+                        <figcaption>HTML</figcaption>
+                    </figure>
+                    <figure className='a-fig'>
+                        <img src={css} alt="" />
+                        <figcaption>CSS</figcaption>
+                    </figure>
+                    <figure className='a-fig'>
+                        <img src={js} alt="" />
+                        <figcaption>JavaScript</figcaption>
+                    </figure>
+                    <figure className='a-fig'>
+                        <img src={reactp} alt="" />
+                        <figcaption>React</figcaption>
+                    </figure>
+                </div>
+                <div className="a-edu">
+                    <h2>Education :</h2>
+                    <div className="a-edu-deg">
+                        <img src={dit} alt="" />
+                        <p>B.Tech Civil Engineering</p>
+                        <p>Dit University</p>
+
+                    </div>
+                    <div className="a-edu-deg">
+                        <img src={geu} alt="" />
+                        <p>MBA in Marketing and Business Analytics</p>
+                        <p>Graphic Era University</p>
+                        
+
+                    </div>
+                </div>
+                <div className="a-workex">
+                    <h2>Work Experience :</h2>
+                    <div className="a-az"><h3>Amazon - ML Data Associate</h3></div>
+                    <div className="a-ht"><h3>Hind Terminal - Management Trainee  </h3> </div>
+                </div>
                 <div className="a-award">
                     <img src={award} alt="" className="a-award-img" />
                     <div className="a-award-texts">
