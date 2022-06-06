@@ -8,6 +8,7 @@ import { useState } from 'react'
 import { ThemeContext } from '../../context'
 import { useContext } from 'react'
 
+
 const Contacts=()=>{
     const formref = useRef();
     const [done , setDone] = useState(false)
@@ -27,7 +28,7 @@ const Contacts=()=>{
             });
     }
     return(
-        <div className="c">
+        <div  className="c">
             <div style={{backgroundColor: darkMode && 'rgb(160, 0, 0)' , color: darkMode && "white" }} className="c-bg"></div>
             <div className="c-wrapper">
                 <div className="c-left">

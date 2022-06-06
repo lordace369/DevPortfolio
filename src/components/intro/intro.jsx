@@ -2,7 +2,8 @@ import './intro.scss'
 import me from '../../img/me.png'
 import { ThemeContext } from '../../context'
 import { useContext } from 'react'
-// import Contacts from "../contacts/contacts";
+import resume from "../../AyushLingwal_Resume.pdf"
+
 
 const Intro = () => {
     const theme =useContext(ThemeContext)
@@ -21,12 +22,12 @@ const Intro = () => {
                             <div style={{color: darkMode && "red"  }} className="i-title-item">Video Editor</div>
                         </div>
                     </div>
-                    {/* <p className="i-desc"> Scroll down</p> */}
+                    <a className='i-anchor' href={resume} download='Ayush_Lingwal_resume' > <button style={{backgroundColor: darkMode && 'red'}} className='i-button'  type='submit' >Download Resume</button> </a>
                 </div>
                 
             </div>
             <div className="i-right">
-                <div style={{backgroundColor: darkMode && 'rgb(160, 0, 0)'}} className="i-bg"></div>
+                <div style={{backgroundColor: darkMode && 'rgb(160, 0, 0)' }} className="i-bg"></div>
                 <img src={me} alt="" className="i-img" />
             </div>
         </div>

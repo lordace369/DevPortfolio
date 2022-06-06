@@ -63,13 +63,52 @@
                 }
             }
         }
+        .i-anchor{
+            margin-top: 5%;
+            width:150px;
 
-        .i-scroll {
-            width: 30px;
-            height: 30px;
-            position: absolute;
-            bottom: 20px;
+            .i-button{
+                background-color: rgb(115, 188, 115);
+                border: 1px solid transparent;
+                outline: none;
+                padding: 10px 20px;
+                width: 100%;
+                border-radius: 5px;
+                text-align: center;
+                cursor: pointer;
+                position: relative;
+                -webkit-transition-duration: 0.4s; /* Safari */
+                transition-duration: 0.4s;
+                text-decoration: none;
+                overflow: hidden;
+
+            }
+            .i-button:hover{
+                background-color: white;
+            }
+            
+            .i-button:after {
+                content: "";
+                background: #90EE90;
+                display: block;
+                position: absolute;
+                padding-top: 300%;
+                padding-left: 350%;
+                margin-left: -20px!important;
+                margin-top: -120%;
+                opacity: 0;
+                transition: all 0.8s
+            }
+            .i-button:active:after {
+                padding: 0;
+                margin: 0;
+                opacity: 1;
+                transition: 0s
+            }  
+
+
         }
+
     }
 
     .i-right {
@@ -107,6 +146,12 @@
                 justify-content: center;
                 height: 100%;
 
+                    .i-title-item{
+                        width: 100%;
+                        justify-content: center;
+
+                    }
+
                 .i-desc{
                     display: none;
                 }
@@ -129,6 +174,11 @@
                 text-align: center;
                 justify-content: center;
                 height: 100%;
+                
+                    .i-title-item{
+                        justify-content: center;
+
+                    }
 
                 .i-desc{
                     display: none;

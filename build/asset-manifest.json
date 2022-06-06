@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.77bc7aa6.chunk.css",
-    "main.js": "/static/js/main.eeb5a70e.chunk.js",
-    "main.js.map": "/static/js/main.eeb5a70e.chunk.js.map",
+    "main.css": "/static/css/main.876d3cd0.chunk.css",
+    "main.js": "/static/js/main.30855242.chunk.js",
+    "main.js.map": "/static/js/main.30855242.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.9412c5a0.js",
     "runtime-main.js.map": "/static/js/runtime-main.9412c5a0.js.map",
     "static/js/2.dfb40c8e.chunk.js": "/static/js/2.dfb40c8e.chunk.js",
     "static/js/2.dfb40c8e.chunk.js.map": "/static/js/2.dfb40c8e.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.77bc7aa6.chunk.css.map": "/static/css/main.77bc7aa6.chunk.css.map",
+    "static/css/main.876d3cd0.chunk.css.map": "/static/css/main.876d3cd0.chunk.css.map",
     "static/js/2.dfb40c8e.chunk.js.LICENSE.txt": "/static/js/2.dfb40c8e.chunk.js.LICENSE.txt",
+    "static/media/AyushLingwal_Resume.2dd9d982.pdf": "/static/media/AyushLingwal_Resume.2dd9d982.pdf",
     "static/media/address.a01cb8cc.png": "/static/media/address.a01cb8cc.png",
     "static/media/email.a49e0158.png": "/static/media/email.a49e0158.png",
     "static/media/me.b2f32ffd.png": "/static/media/me.b2f32ffd.png",
@@ -21,7 +22,7 @@
   "entrypoints": [
     "static/js/runtime-main.9412c5a0.js",
     "static/js/2.dfb40c8e.chunk.js",
-    "static/css/main.77bc7aa6.chunk.css",
-    "static/js/main.eeb5a70e.chunk.js"
+    "static/css/main.876d3cd0.chunk.css",
+    "static/js/main.30855242.chunk.js"
   ]
 }
