@@ -48,10 +48,13 @@ const Contacts=()=>{
                     </div>
                 </div>
                 <div className="c-right">
-                    <p className="c-desc">
-                        <b>Open to work full-time.</b> Freelancing if the right project comes along.
+                    <p className="c-desc" style={{display:done && 'none'}}>
+                        <b >Open to work full-time.</b> Freelancing if the right project comes along.
                     </p>
-                    <form ref={formref} onSubmit={handleSubmit}>
+                    <div style={{color: darkMode && 'rgb(214, 0, 0)'}} className="c-thank">
+                        {done && <h2>Thank you for your mail. <br /> I'll get back to you right away</h2>}
+                    </div>
+                    <form style={{display:done && 'none'}} ref={formref} onSubmit={handleSubmit}>
                         <input style={{ backgroundColor: darkMode && "#333" }} type="text" name="user_name"  placeholder='Name' />
                         <input style={{ backgroundColor: darkMode && "#333" }} type="text" name="user_subject"  placeholder='Subject' />
                         <input style={{ backgroundColor: darkMode && "#333" }} type="text" name="user_email"  placeholder='Your Email' />

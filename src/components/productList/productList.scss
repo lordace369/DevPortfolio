@@ -32,7 +32,38 @@
 
 @media screen and (max-width: 480px) {
     .pl {
-        margin-top: 100%;
+        padding: 10px;
+
+        
+        .pl-texts {
+            width: 100%;
+    
+            .pl-desc {
+                display: none;
+            }
+        }
+    }
+
+
+}
+@media screen and (max-width: 850px) {
+    .pl {
+        padding: 10px;
+
+        
+        .pl-texts {
+            width: 100%;
+    
+            .pl-desc {
+                display: none;
+            }
+        }
+    }
+
+
+}
+@media screen and (max-width: 1030px) {
+    .pl {
         padding: 10px;
 
         

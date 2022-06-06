@@ -117,3 +117,26 @@
     }
 
 }
+@media screen and (max-width:850px){
+    .i{
+        flex-direction: column;
+
+        .i-left{
+
+            .i-left-wrapper{
+                padding: 10px;
+                align-items: center;
+                text-align: center;
+                justify-content: center;
+                height: 100%;
+
+                .i-desc{
+                    display: none;
+                }
+        
+            }
+        }
+
+    }
+
+}

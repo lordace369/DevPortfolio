@@ -8,9 +8,9 @@ const ProductList = () => {
         <div className="pl">
             <div className="pl-texts">
                 <h1 className="pl-title">Creations</h1>
-                <p className="pl-desc">
+                <h2 className="pl-desc">
                     Some of the personal projects which are based on React and mostly Python that you can feast your eyes upon.
-                </p>
+                </h2>
             </div>
             <div className="pl-list">
                 {products.map((item)=>(
