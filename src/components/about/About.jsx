@@ -2,6 +2,7 @@ import  './about.scss'
 import meee from '../../img/meee.png'
 import reactp from '../../img/reactp.png'
 import flask from '../../img/flask.png'
+import flaskd from '../../img/flaskd.png'
 import html from '../../img/html.png'
 import css from '../../img/css.png'
 import js from '../../img/js.png'
@@ -34,7 +35,7 @@ const About = () => {
                         <figcaption>Python</figcaption>
                     </figure>
                     <figure className='a-fig'>
-                        <img src={flask} alt="" />
+                        <img src = {darkMode ? flaskd : flask}    alt="" />
                         <figcaption>Flask</figcaption>
                     </figure>
                     <figure className='a-fig'>
