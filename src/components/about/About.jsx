@@ -60,12 +60,12 @@ const About = () => {
                     <div className="a-edu-wrap">
                         
                         <div className="a-edu-deg">
-                            <img src={dit} alt="" />
+                            <img style={{filter : darkMode && 'invert(100%)'}} src={dit} alt="" />
                             <p>B.Tech Civil Engineering</p>
                             <p>Dit University</p>
                         </div>
                         <div className="a-edu-deg">
-                            <img src={geu} alt="" />
+                            <img style={{filter : darkMode && 'invert(100%)'}} src={geu} alt="" />
                             <p>MBA in Marketing and Business Analytics</p>
                             <p>Graphic Era University</p>
                         </div>
@@ -76,11 +76,11 @@ const About = () => {
                     <h2>Work Experience :</h2>
                     <div className="a-workex">
                         <div className="a-comp">
-                            <img src={amz} alt="" />
+                            <img style={{filter : darkMode && 'invert(100%)'}} src={amz} alt="" />
                             <p>Amazon - ML Data Associate</p>
                         </div>
                         <div className="a-comp">
-                            <img src={cont} alt="" />
+                            <img style={{filter : darkMode && 'invert(100%)'}} src={cont} alt="" />
                             <p>Hind Terminals - Management Trainee</p>
                         </div>
                     </div>
